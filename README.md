@@ -32,7 +32,8 @@ Save backup snapshots or AMIs after setup.
 
 
 ## Project structure 
-`simple-maven-app/
+```
+simple-maven-app/
 ├── Jenkinsfile
 ├── pom.xml
 └── src/
@@ -41,8 +42,8 @@ Save backup snapshots or AMIs after setup.
     │       └── com/example/App.java
     └── test/
         └── java/
-            └── com/example/AppTest.java`
-
+            └── com/example/AppTest.java
+```
 
 
 ## 🚀 Jenkins Setup Steps (From Dashboard)
