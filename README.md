@@ -21,10 +21,16 @@ User data (Copy the following user data)https://github.com/kingakwa/simple-maven
 
 ## 🌐 Access Jenkins UI
 `http://<EC2-Public-IP>:8080`
+
 ## Retrieve the initial admin password:
 -copy the path on the jenkins server in red, then retrieve on the terminal by typing 
 `sudo cat /var/jenkins_home/secrets/initialAdminPassword`
+
+<img width="739" height="385" alt="Image" src="https://github.com/user-attachments/assets/aacd566d-5ba9-49e0-9e2d-2f8354c5a8bf" />
+
 -Paste the password into the Jenkins UI and continue with setup
+
+<img width="437" height="136" alt="Image" src="https://github.com/user-attachments/assets/17ce361c-22fe-4d29-bee8-9a64207d2750" />
 
 ## 🛠️ Post-Setup Tips
 Install recommended plugins.
@@ -53,6 +59,7 @@ Now that you are logged into Jenkins on AWS and at the Dashboard, follow these s
 ✅ PART 1: Jenkins Plugins to Install Before Pipeline Setup
 Before you start building Maven pipelines, it’s essential to install a few key Jenkins plugins:
 
+
 ## 🔧 Recommended Plugins:
 ```
 Plugin Name          	             Purpose
@@ -72,6 +79,8 @@ Plugin Name          	             Purpose
 -Search for each plugin above and check them
 -Click `Install` without restart
 -After installing, `restart` Jenkins if prompted.
+
+<img width="909" height="421" alt="Image" src="https://github.com/user-attachments/assets/684655d2-855b-4abf-81cc-9791d2d90367" />
 
 ## ✅ STEP 1: Create a New Job
 -Click "New Item" from the left sidebar.
