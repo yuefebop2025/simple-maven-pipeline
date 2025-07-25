@@ -13,6 +13,7 @@ Key pair: Select or create a new keypair
 storage 50 GiB
 give an IAM role permission giving full access or customise the permission
 User data (Copy the following user data)https://github.com/kingakwa/simple-maven-app/blob/main/jenkins-server-install.sh
+
 -click `lauch instance`
 
 ## 🔐 SSH into EC2 (after launch)
