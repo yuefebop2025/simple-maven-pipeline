@@ -1,4 +1,4 @@
-# simple-maven-app 9CICD pipeline)
+# simple-maven-app CICD pipeline)
 
 ## Architecture diagram
 
