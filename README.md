@@ -55,13 +55,13 @@ Before you start building Maven pipelines, it’s essential to install a few key
 
 ## 🔧 Recommended Plugins:
 ```
-Plugin Name          	Purpose
--Pipeline	            Enables creating Jenkins pipelines using Jenkinsfile.
--Git plugin     	    Allows Jenkins to clone Git repositories.
--GitHub plugin	        Integrates Jenkins with GitHub repositories.
--Maven Integration	    Allows Jenkins to build Maven projects.
--JUnit plugin	        Provides test result visualization for Maven unit tests.
--Blue Ocean (optional)	 Modern UI for Jenkins Pipelines.
+Plugin Name          	             Purpose
+-Pipeline:stage view	             Enables creating Jenkins pipelines using Jenkinsfile.
+-Git push        	                 Allows Jenkins to clone Git repositories.
+-GitHub intergration                 Integrates Jenkins with GitHub repositories.
+-Maven Integration	                 Allows Jenkins to build Maven projects.
+-JUnit Realtime test reporter        Provides test result visualization for Maven unit tests.
+-Blue Ocean (optional)	              Modern UI for Jenkins Pipelines.
 ```
 
 ## 🔨 How to Install Plugins:
