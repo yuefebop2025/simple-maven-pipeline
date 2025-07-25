@@ -1,9 +1,18 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Maven' // Ensure Maven is configured in Jenkins Global Tools Configuration
+    }
+
+    environment {
+        MAVEN_OPTS = "-Dmaven.repo.local=.m2/repository"
+    }
+
     stages {
         stage('Checkout') {
             steps {
+                // This checks out the main branch explicitly
                 git branch: 'main', url: 'https://github.com/kingakwa/simple-maven-app.git'
             }
         }
