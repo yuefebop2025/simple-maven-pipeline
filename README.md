@@ -95,6 +95,8 @@ Choose `Git`
 
 In the Repository URL, enter your GitHub repo (e.g. `https://github.com/kingakwa/simple-maven-app.git`)
 
+<img width="934" height="413" alt="Image" src="https://github.com/user-attachments/assets/cac06dc9-6f28-4298-8ec2-5c3918cd83d2" />
+
 Set Branch: main or master (depending on your repo)
 
 Script Path: Jenkinsfile (default)
