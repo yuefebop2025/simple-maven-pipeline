@@ -32,7 +32,7 @@ Save backup snapshots or AMIs after setup.
 
 
 ## Project structure 
-simple-maven-app/
+`simple-maven-app/
 ├── Jenkinsfile
 ├── pom.xml
 └── src/
@@ -41,7 +41,7 @@ simple-maven-app/
     │       └── com/example/App.java
     └── test/
         └── java/
-            └── com/example/AppTest.java
+            └── com/example/AppTest.java`
 
 
 
