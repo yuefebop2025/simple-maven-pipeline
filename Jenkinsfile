@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'maven 3' // Ensure Maven is configured in Jenkins Global Tools Configuration
+        maven 'maven3' // Ensure Maven is configured in Jenkins Global Tools Configuration
     }
 
     environment {
@@ -33,6 +33,7 @@ pipeline {
             steps {
                 sh 'mvn package'
             }
-        }
-    }
-}
+        
+    post {
+always {
+    echo 'Pipeline finished.'
