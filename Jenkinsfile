@@ -32,8 +32,4 @@ pipeline {
         stage('Package') {
             steps {
                 sh 'mvn package'
-            }
-        
-    post {
-always {
-    echo 'Pipeline finished.'
+    
