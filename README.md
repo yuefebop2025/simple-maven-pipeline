@@ -54,6 +54,7 @@ Now that you are logged into Jenkins on AWS and at the Dashboard, follow these s
 Before you start building Maven pipelines, it’s essential to install a few key Jenkins plugins:
 
 ## 🔧 Recommended Plugins:
+```
 Plugin Name          	Purpose
 -Pipeline	            Enables creating Jenkins pipelines using Jenkinsfile.
 -Git plugin     	    Allows Jenkins to clone Git repositories.
@@ -61,6 +62,7 @@ Plugin Name          	Purpose
 -Maven Integration	    Allows Jenkins to build Maven projects.
 -JUnit plugin	        Provides test result visualization for Maven unit tests.
 -Blue Ocean (optional)	 Modern UI for Jenkins Pipelines.
+```
 
 ## 🔨 How to Install Plugins:
 - Go to Jenkins Dashboard
